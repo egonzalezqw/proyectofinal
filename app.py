@@ -75,7 +75,7 @@ if st.session_state.nivel == 1:
     respuesta = st.text_input("Ingresa la clave:")
 
     if st.button("Validar Nivel 1"):
-        if respuesta == "1":
+        if respuesta == "linux123":
             st.success("✅ Correcto! Nivel 2 desbloqueado")
             st.session_state.nivel = 2
             guardar_progreso(st.session_state.nombre, 2)
